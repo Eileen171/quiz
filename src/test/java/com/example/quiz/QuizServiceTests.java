@@ -115,5 +115,7 @@ public class QuizServiceTests {
 		List<Question> questionList = new ArrayList<>();
 		questionList.add(new Question(1, "健康餐?", "鮭魚; 松阪豬; 烤雞腿; 牛小排", //
 				OptionType.SINGLE_CHOICE.getType(), true));
+		System.out.println("============================");
 	}
+	
 }
